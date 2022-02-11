@@ -1,0 +1,21 @@
+.dark-primary-color {
+	background: #fbc02d;
+}
+.default-primary-color {
+	background: #ffeb3b;
+}
+.light-primary-color {
+	background: #fff9c4;
+}
+.accent-color {
+	background: #ff5252;
+}
+.primary-text-color {
+	color: #212121;
+}
+.secondary-text-color {
+	color: #757575;
+}
+.divider-color {
+	border-color: #bdbdbd;
+}
