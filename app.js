@@ -29,6 +29,7 @@ let insertedAnswers = [];
 // 1. capturar os valores dos inputs
 
 const form = document.querySelector('.quiz-form');
+const modal = new bootstrap.Modal(document.querySelector('.modal'));
 
 form.addEventListener('submit', (event) => {
 	event.preventDefault();
@@ -45,4 +46,5 @@ form.addEventListener('submit', (event) => {
 		insertedAnswers.push('W');
 	});
 	console.log(insertedAnswers);
+	modal.toggle();
 });
